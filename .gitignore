@@ -1,5 +1,5 @@
 # 环境配置文件
-banckend/.env
+backend/.env
 
 # uv / Python
 .venv/
@@ -12,3 +12,6 @@ build/
 
 # PyCharm
 .idea/
+
+# docs
+架构文档.md
