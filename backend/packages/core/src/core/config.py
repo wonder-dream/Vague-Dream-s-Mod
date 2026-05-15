@@ -28,3 +28,15 @@ class Settings(BaseSettings):
     qwen_api_key: str = ''
     qwen_base_url: str = ''
     embedding_dimensions: int = 128
+
+    # 存储
+    data_path: str = ''
+    notes_storage_path: str = ''
+
+    # 备份
+    backup_dir: str = ''
+    backup_retention_days: int = 0
+    backup_schedule_hour: int = 0
+
+    # 前端
+    frontend_api_base_url: str = ''
