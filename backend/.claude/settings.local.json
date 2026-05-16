@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(git *)",
+      "Bash(cd /d D:\\\\document\\\\Vague-Dream-s-Mod\\\\backend)",
+      "Bash(uv sync *)",
+      "Bash(python -c \"from core.exceptions import PluginNotFoundException; print\\('OK'\\)\")",
+      "Bash(uv run *)",
+      "Bash(uv tree *)",
+      "Bash(uv build *)"
     ]
   }
 }
